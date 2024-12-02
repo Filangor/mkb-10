@@ -88,8 +88,8 @@ class MKBProcessor:
 
 
 if __name__ == "__main__":
-    pdf_file = "2018-mkb10.pdf"
-    excel_file = "МКБ10-группы.xlsx"
+    pdf_file = "C00-D48.pdf"
+    excel_file = "MKB10-группы.xlsx"
 
     try:
         processor = MKBProcessor(pdf_file, excel_file)
